@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/oneee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".admin_page">
+
+
+    <EditText
+        android:id="@+id/doctorname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/white"
+        android:hint="Enter Doctor Name"
+        android:textAlignment="center"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/hospitalname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/white"
+        android:hint="Enter Hospital Name"
+        android:textAlignment="center"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/doctorpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/white"
+        android:hint="Enter Doctor Password"
+        android:textAlignment="center"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/savee12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#F80101"
+        android:text="SaVE"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/backkkk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F80606"
+        android:text="Back" />
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/onee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".admin_page">
+
+
+
+
+        <EditText
+            android:id="@+id/patient_name_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="@color/white"
+            android:hint="Enter Patient Name"
+            android:textAlignment="center"
+            android:textColorHint="#FFFFFF"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/patient_age_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/white"
+            android:hint="Enter Patient Age"
+            android:textAlignment="center"
+            android:textColorHint="#FFFFFF"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/hospital_name_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/white"
+            android:hint="Enter Hospital Name."
+            android:textAlignment="center"
+            android:textColorHint="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/save_button123"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="#F80101"
+            android:text="SaVE"
+            android:textSize="30sp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextAdmin_id" type="id" />
+    <item name="editTextAdmin_password" type="id" />
+    <item name="onee" type="id" />
+    <item name="pat_name" type="id" />
+    <item name="pat_age" type="id" />
+    <item name="pat_hos_name" type="id" />
+    <item name="pat_heart_rate" type="id" />
+    <item name="pat_sys" type="id" />
+    <item name="pat_dias" type="id" />
+    <item name="patient_ID" type="id" />
+    <item name="activity_main" type="id" />
+    <item name="patient_name" type="id" />
+    <item name="patient_age" type="id" />
+    <item name="patient_hospital" type="id" />
+    <item name="heart_rate" type="id" />
+    <item name="display_button" type="id" />
+    <item name="ecg_surfaceview" type="id" />
+    <item name="ecg_layout" type="id" />
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/patient_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Name" />
+
+    <TextView
+        android:id="@+id/patient_age_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Age" />
+
+    <TextView
+        android:id="@+id/hospital_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital Name" />
+
+    <TextView
+        android:id="@+id/patient_number_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Number" />
+
+    <TextView
+        android:id="@+id/systolic_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Systolic" />
+
+    <TextView
+        android:id="@+id/diastolic_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diastolic" />
+
+</LinearLayout>

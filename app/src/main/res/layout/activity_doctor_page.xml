@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".admin_page">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/bg"
+        android:fontFamily="cursive"
+        android:paddingVertical="70dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/pat_dett"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FA0202"
+        android:text="Patient Details"
+        android:textSize="25sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/ecg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#F80404"
+        android:text="ECG"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+
+</LinearLayout>
